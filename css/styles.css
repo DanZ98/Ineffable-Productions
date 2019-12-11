@@ -1,51 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
 body{
-    font-family: "Open sans", sans-serif;
+    font-family: "din", sans-serif;
+    color: #32A7DA;
 }
 
-h1, h2, h3{
-    font-family: "Lobster", cursive;
+/* Jumbotron Section */
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    background-color:black;
+    height: 700px;
+    padding: 0;
+    border-bottom: 3px solid #32A7DA;  
 }
 
-h2{
-    color: #3046C5;
+.jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity:0.5;
 }
 
-header h2{
-    color: #CEC8FF;
+/* Navigation */
+nav{
+    background: rgba(0,0,0, 0.85);
+    border-bottom: 2px solid #32A7DA;
 }
 
-.site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+.nav-link{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
-.jumbotron{
+/* Background Video */
+.video-texture{
+    background-image: url(../img/black-twill.png);
+}
+
+#video_background{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.angle-down{
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 32px;
+    font-size: 47px;
+    color: #e60f43;
+    z-index: 1;
+}
+
+h1{
+    font-family: 'Lato', sans-serif; 
+    font-weight: 900;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300; 
+    font-size: 20px;
+}
+
+.container-border{
+  border: 3px solid;
+  max-width: 100%;
+}
+
+.bg-image-work{
+    background-image: url('../img/test.png');
+    max-width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-shadow img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.white-copy{
+    color: #ffffff;
+}
+
+.bg-image-directors{
+    background: url('../img/film_car.jpg');
+    max-width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Modal */
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+ 
+.modal-content {
+    background: none;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+ 
+.modal-body {
+    padding: 0 25px 25px 25px;
+}
+ 
+.modal-header {
+    padding: 25px 25px 15px 25px;
+    text-align: right;
+}
+ 
+.modal-header, .modal-footer {
+    border: 0;
+}
+ 
+.modal-header .close {
+    float: none;
     margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046c5, #60106B);
-    color: white;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
 }
 
-.row-content{
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+.card{
+    background-color: inherit;
+    border: 1px solid white;
 }
 
-.navbar{
-    background-color: #901CAD;
+.card a{
+    cursor: pointer;
 }
 
-.tab-content{
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
+/* Contact Section */
+#contact-header, .contact-info{
+    color:#023C57;
 }
 
-.carousel-caption{
-    background-color: rgba(0,0,0, 0.5);
+/* Footer */
+footer{
+    background-color:#023C57; 
+    height: 180px;
+    width: 100%;
+    font-size: 12px;
 }
 
-.carousel{
-    border: solid #5637DD;
+.footer-border{
+    margin: 0;
+    border: 10px solid #033850;
 }
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
