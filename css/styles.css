@@ -25,6 +25,11 @@ body{
     opacity:0.5;
 }
 
+.jumbotron .container{
+    position: relative;
+    max-width: 100%;
+}
+
 /* Navigation */
 nav{
     background: rgba(0,0,0, 0.85);
@@ -61,6 +66,11 @@ nav{
     z-index: 1;
 }
 
+.container{
+    max-width: 1640px;
+    width: 100%;
+}
+
 h1{
     font-family: 'Lato', sans-serif; 
     font-weight: 900;
@@ -74,8 +84,8 @@ p{
 }
 
 .container-border{
-  border: 3px solid;
-  max-width: 100%;
+    border: 3px solid;
+    max-width: 100%;
 }
 
 .bg-image-work{
